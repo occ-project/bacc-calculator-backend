@@ -1,0 +1,565 @@
+[
+  {
+    "timestamp": "2025-08-30T03:40:31.440Z",
+    "date": "8/29/2025",
+    "time": "9:40:31 PM",
+    "rank": "E-6",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-08-30T03:40:34.992Z",
+    "date": "8/29/2025",
+    "time": "9:40:34 PM",
+    "rank": "E-6",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Preschool (25-60 months)"
+      }
+    ],
+    "totalMonthly": 855,
+    "totalAnnual": 10260,
+    "perChildResults": [
+      {
+        "age": "Preschool (25-60 months)",
+        "amount": 855,
+        "breakdown": {
+          "baseAllowance": 950,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 950
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-30T03:41:58.725Z",
+    "date": "8/29/2025",
+    "time": "9:41:58 PM",
+    "rank": "E-5",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-08-30T03:42:02.976Z",
+    "date": "8/29/2025",
+    "time": "9:42:02 PM",
+    "rank": "E-5",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Toddler (13-24 months)"
+      }
+    ],
+    "totalMonthly": 1170,
+    "totalAnnual": 14040,
+    "perChildResults": [
+      {
+        "age": "Toddler (13-24 months)",
+        "amount": 1170,
+        "breakdown": {
+          "baseAllowance": 1000,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1.3,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1300
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-30T03:52:07.794Z",
+    "date": "8/29/2025",
+    "time": "9:52:07 PM",
+    "rank": "E-6",
+    "location": "Low Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-08-30T03:52:13.111Z",
+    "date": "8/29/2025",
+    "time": "9:52:13 PM",
+    "rank": "E-6",
+    "location": "Low Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Toddler (13-24 months)"
+      }
+    ],
+    "totalMonthly": 889.2,
+    "totalAnnual": 10670.4,
+    "perChildResults": [
+      {
+        "age": "Toddler (13-24 months)",
+        "amount": 889.2,
+        "breakdown": {
+          "baseAllowance": 950,
+          "geoMultiplier": 0.8,
+          "ageMultiplier": 1.3,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 988
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-30T03:53:58.827Z",
+    "date": "8/29/2025",
+    "time": "9:53:58 PM",
+    "rank": "E-5",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-08-30T03:54:02.197Z",
+    "date": "8/29/2025",
+    "time": "9:54:02 PM",
+    "rank": "E-5",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Toddler (13-24 months)"
+      }
+    ],
+    "totalMonthly": 1170,
+    "totalAnnual": 14040,
+    "perChildResults": [
+      {
+        "age": "Toddler (13-24 months)",
+        "amount": 1170,
+        "breakdown": {
+          "baseAllowance": 1000,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1.3,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1300
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-30T03:54:57.994Z",
+    "date": "8/29/2025",
+    "time": "9:54:57 PM",
+    "rank": "E-5",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-08-30T03:55:00.994Z",
+    "date": "8/29/2025",
+    "time": "9:55:00 PM",
+    "rank": "E-5",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Toddler (13-24 months)"
+      }
+    ],
+    "totalMonthly": 1170,
+    "totalAnnual": 14040,
+    "perChildResults": [
+      {
+        "age": "Toddler (13-24 months)",
+        "amount": 1170,
+        "breakdown": {
+          "baseAllowance": 1000,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1.3,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1300
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-08-30T04:02:23.286Z",
+    "date": "8/29/2025",
+    "time": "10:02:23 PM",
+    "rank": "E-4",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-08-30T04:02:29.467Z",
+    "date": "8/29/2025",
+    "time": "10:02:29 PM",
+    "rank": "E-4",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Preschool (25-60 months)"
+      }
+    ],
+    "totalMonthly": 990,
+    "totalAnnual": 11880,
+    "perChildResults": [
+      {
+        "age": "Preschool (25-60 months)",
+        "amount": 990,
+        "breakdown": {
+          "baseAllowance": 1100,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1100
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-09-01T23:30:45.805Z",
+    "date": "9/1/2025",
+    "time": "5:30:45 PM",
+    "rank": "E-2",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-09-01T23:30:54.593Z",
+    "date": "9/1/2025",
+    "time": "5:30:54 PM",
+    "rank": "E-2",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Toddler (13-24 months)"
+      }
+    ],
+    "totalMonthly": 1404,
+    "totalAnnual": 16848,
+    "perChildResults": [
+      {
+        "age": "Toddler (13-24 months)",
+        "amount": 1404,
+        "breakdown": {
+          "baseAllowance": 1200,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1.3,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1560
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-09-01T23:44:03.834Z",
+    "date": "9/1/2025",
+    "time": "5:44:03 PM",
+    "rank": "E-4",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-09-01T23:44:09.318Z",
+    "date": "9/1/2025",
+    "time": "5:44:09 PM",
+    "rank": "E-4",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Preschool (25-60 months)"
+      }
+    ],
+    "totalMonthly": 990,
+    "totalAnnual": 11880,
+    "perChildResults": [
+      {
+        "age": "Preschool (25-60 months)",
+        "amount": 990,
+        "breakdown": {
+          "baseAllowance": 1100,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1100
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-09-02T01:38:44.467Z",
+    "date": "9/1/2025",
+    "time": "7:38:44 PM",
+    "rank": "E-4",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-09-02T01:38:49.635Z",
+    "date": "9/1/2025",
+    "time": "7:38:49 PM",
+    "rank": "E-4",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Toddler (13-24 months)"
+      }
+    ],
+    "totalMonthly": 1287,
+    "totalAnnual": 15444,
+    "perChildResults": [
+      {
+        "age": "Toddler (13-24 months)",
+        "amount": 1287,
+        "breakdown": {
+          "baseAllowance": 1100,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1.3,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1430
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-09-02T01:38:53.548Z",
+    "date": "9/1/2025",
+    "time": "7:38:53 PM",
+    "rank": "E-4",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 2,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Toddler (13-24 months)"
+      },
+      {
+        "childNumber": 2,
+        "age": "Toddler (13-24 months)"
+      }
+    ],
+    "totalMonthly": 2574,
+    "totalAnnual": 30888,
+    "perChildResults": [
+      {
+        "age": "Toddler (13-24 months)",
+        "amount": 1287,
+        "breakdown": {
+          "baseAllowance": 1100,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1.3,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1430
+        }
+      },
+      {
+        "age": "Toddler (13-24 months)",
+        "amount": 1287,
+        "breakdown": {
+          "baseAllowance": 1100,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1.3,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1430
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-09-02T03:03:52.830Z",
+    "date": "9/1/2025",
+    "time": "9:03:52 PM",
+    "rank": "E-6",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-09-02T03:03:56.700Z",
+    "date": "9/1/2025",
+    "time": "9:03:56 PM",
+    "rank": "E-6",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Infant (0-12 months)"
+      }
+    ],
+    "totalMonthly": 1197,
+    "totalAnnual": 14364,
+    "perChildResults": [
+      {
+        "age": "Infant (0-12 months)",
+        "amount": 1197,
+        "breakdown": {
+          "baseAllowance": 950,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1.4,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1330
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-09-02T03:04:01.295Z",
+    "date": "9/1/2025",
+    "time": "9:04:01 PM",
+    "rank": "E-6",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 2,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Infant (0-12 months)"
+      },
+      {
+        "childNumber": 2,
+        "age": "Toddler (13-24 months)"
+      }
+    ],
+    "totalMonthly": 2308.5,
+    "totalAnnual": 27702,
+    "perChildResults": [
+      {
+        "age": "Infant (0-12 months)",
+        "amount": 1197,
+        "breakdown": {
+          "baseAllowance": 950,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1.4,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1330
+        }
+      },
+      {
+        "age": "Toddler (13-24 months)",
+        "amount": 1111.5,
+        "breakdown": {
+          "baseAllowance": 950,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1.3,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1235
+        }
+      }
+    ]
+  },
+  {
+    "timestamp": "2025-09-02T03:23:18.775Z",
+    "date": "9/1/2025",
+    "time": "9:23:18 PM",
+    "rank": "E-5",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 0,
+    "children": [],
+    "totalMonthly": 0,
+    "totalAnnual": 0,
+    "perChildResults": []
+  },
+  {
+    "timestamp": "2025-09-02T03:23:22.126Z",
+    "date": "9/1/2025",
+    "time": "9:23:22 PM",
+    "rank": "E-5",
+    "location": "Standard Cost",
+    "costShare": 10,
+    "numberOfChildren": 1,
+    "children": [
+      {
+        "childNumber": 1,
+        "age": "Preschool (25-60 months)"
+      }
+    ],
+    "totalMonthly": 900,
+    "totalAnnual": 10800,
+    "perChildResults": [
+      {
+        "age": "Preschool (25-60 months)",
+        "amount": 900,
+        "breakdown": {
+          "baseAllowance": 1000,
+          "geoMultiplier": 1,
+          "ageMultiplier": 1,
+          "costShareDecimal": 0.1,
+          "beforeCostShare": 1000
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,75 @@
+[
+  {
+    "id": "survey_1756770307467_jva2u15yt",
+    "submittedAt": "2025-09-01T23:45:07.448Z",
+    "date": "9/1/2025",
+    "time": "5:45:07 PM",
+    "responses": {
+      "currentPrograms": "No, I do not use DoD child care programs because I do not qualify or they are inaccessible to me",
+      "qualityCare": "Strongly Agree",
+      "qualityCare_followup": "words",
+      "missionReadiness": "Neither Agree nor Disagree",
+      "missionReadiness_followup": "words 2",
+      "maritalStatus": "Married",
+      "geographicCostArea": "I'm not sure - I need to check my installation",
+      "spouseImpact": "Strongly Disagree",
+      "spouseImpact_followup": "sadfsd",
+      "careerDecision": "Neither Agree nor Disagree",
+      "careerDecision_followup": "sdfasdf",
+      "currentHurdles": [
+        "Do not meet program eligibility requirements",
+        "Available care doesn't meet quality standards I expect",
+        "Care doesn't meet logistical needs (location, transportation, scheduling)"
+      ]
+    }
+  },
+  {
+    "id": "survey_1756777243782_ynw5tga90",
+    "submittedAt": "2025-09-02T01:40:43.774Z",
+    "date": "9/1/2025",
+    "time": "7:40:43 PM",
+    "responses": {
+      "currentPrograms": "Yes, I currently use DoD child care programs",
+      "programPreference": "Use both options depending on the situation (when available/appropriate)",
+      "qualityCare": "Strongly Agree",
+      "qualityCare_followup": "words and things",
+      "missionReadiness": "Neither Agree nor Disagree",
+      "missionReadiness_followup": "astu",
+      "maritalStatus": "Married",
+      "spouseImpact": "Strongly Disagree",
+      "spouseImpact_followup": "fasdfsd",
+      "careerDecision": "Agree",
+      "currentHurdles": [
+        "Long waiting lists for available programs",
+        "Care doesn't meet my child's special medical or developmental needs",
+        "Care doesn't accommodate religious or cultural requirements"
+      ]
+    }
+  },
+  {
+    "id": "survey_1756782268702_gvt7m4ii7",
+    "submittedAt": "2025-09-02T03:04:28.695Z",
+    "date": "9/1/2025",
+    "time": "9:04:28 PM",
+    "responses": {
+      "currentPrograms": "Yes, I currently use DoD child care programs",
+      "programPreference": "Continue using my current DoD program(s) instead of opting for BACC",
+      "programPreference_followup": "fasdf",
+      "qualityCare": "Neither Agree nor Disagree",
+      "qualityCare_followup": "adsfsadf",
+      "missionReadiness": "Disagree",
+      "missionReadiness_followup": "sadfasdf",
+      "maritalStatus": "Married",
+      "spouseImpact": "Strongly Disagree",
+      "spouseImpact_followup": "asdfasdf",
+      "careerDecision": "Neither Agree nor Disagree",
+      "careerDecision_followup": "asdfasdfs",
+      "currentHurdles": [
+        "Available care doesn't meet quality standards I expect",
+        "Care doesn't meet logistical needs (location, transportation, scheduling)",
+        "Care doesn't accommodate religious or cultural requirements"
+      ],
+      "currentHurdles_followup": "asdfasdfsfad"
+    }
+  }
+]
