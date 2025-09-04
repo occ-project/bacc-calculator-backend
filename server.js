@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
 
 // Add database connection with error handling
-mongoose.connect('mongodb://localhost:27017/bacc-calculator');
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/bacc-calculator');
+
 
 
 mongoose.connection.on('connected', () => {
