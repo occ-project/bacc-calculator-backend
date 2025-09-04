@@ -344,7 +344,5 @@ app.get('/api/survey-data', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`✅ Server is running at http://0.0.0.0:${PORT}`);
 });
-    console.log(`📊 Data export available at: http://localhost:${PORT}/api/export-csv`);
-    console.log(`📋 View data at: http://localhost:${PORT}/api/data`);
-});
+    
 
