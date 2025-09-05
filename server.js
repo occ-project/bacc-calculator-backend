@@ -1,9 +1,56 @@
+require('dotenv').config();
 const mongoose = require('mongoose');
 
-// Add database connection with error handling
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost:27017/bacc-calculator');
+// Build MongoDB URI from environment variables with safe defaults
+function constructMongoURI() {
+  // Prefer a full URI if provided
+  if (process.env.MONGODB_URI && process.env.MONGODB_URI.trim() !== '') {
+    return process.env.MONGODB_URI;
+  }
 
+  const rawHost = process.env.MONGODB_HOST || 'localhost:27017';
+  const dbName = process.env.MONGODB_DB || 'bacc-calculator';
+  let host = rawHost;
+  let protocol = '';
 
+  if (host.startsWith('mongodb+srv://')) {
+    protocol = 'mongodb+srv://';
+    host = host.replace(/^mongodb\+srv:\/\//, '');
+  } else if (host.startsWith('mongodb://')) {
+    protocol = 'mongodb://';
+    host = host.replace(/^mongodb:\/\//, '');
+  } else {
+    protocol = 'mongodb://';
+  }
+
+  if (process.env.MONGODB_USER && process.env.MONGODB_PASS) {
+    const user = encodeURIComponent(process.env.MONGODB_USER);
+    const pass = encodeURIComponent(process.env.MONGODB_PASS);
+    // authSource=admin is common for Atlas; include retryWrites and w=majority
+    return `${protocol}${user}:${pass}@${host}/${dbName}?authSource=admin&retryWrites=true&w=majority`;
+  }
+
+  return `${protocol}${host}/${dbName}`;
+}
+
+const MONGODB_URI = constructMongoURI();
+
+// Do NOT log the full URI in production (it may contain credentials)
+console.log('🔐 MongoDB connection method:', process.env.MONGODB_URI ? 'MONGODB_URI' : 'constructed from MONGODB_* env vars (credentials hidden)');
+
+mongoose.connect(MONGODB_URI, {
+  // Mongoose v6+ does not require these, but providing serverSelectionTimeoutMS helps fail fast on misconfiguration
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  serverSelectionTimeoutMS: 10000
+}).catch(err => {
+  console.error('❌ MongoDB initial connect error:', err.message || err);
+  if (err && err.message && err.message.toLowerCase().includes('authentication failed')) {
+    console.error('🔎 Authentication failed: verify MONGODB_URI or MONGODB_USER/MONGODB_PASS and ensure special characters are URL-encoded.');
+  }
+  // Fail fast so the deploy surface indicates a problem with credentials/config
+  process.exit(1);
+});
 
 mongoose.connection.on('connected', () => {
   console.log('✅ Connected to MongoDB');
@@ -16,7 +63,6 @@ mongoose.connection.on('error', (err) => {
 mongoose.connection.on('disconnected', () => {
   console.log('📴 MongoDB disconnected');
 });
-
 
 // server.js
 const express = require('express');
@@ -40,7 +86,7 @@ app.use(rateLimit({
 
 app.use('/api', researchRoutes); //
 
-// Data file path
+ // Data file path
 const DATA_FILE = path.join(__dirname, 'bacc_calculations.json');
 
 // Function to save calculation data
@@ -297,9 +343,8 @@ app.get('/api/export-survey-csv', (req, res) => {
     const data = JSON.parse(fs.readFileSync(SURVEY_FILE, 'utf8'));
     
     let csv = 'ID,Date,Time,Current Programs,Program Preference,Quality Care Impact,Mission Readiness Impact,Marital Status,Spouse Impact,Career Impact,Current Hurdles,Follow-up Comments\n';
-
-
     
+
     // Add data rows
     data.forEach(record => {
       const r = record.responses;
@@ -345,5 +390,3 @@ app.get('/api/survey-data', (req, res) => {
 app.listen(PORT, '0.0.0.0', () => {
     console.log(`✅ Server is running at http://0.0.0.0:${PORT}`);
 });
-    
-
