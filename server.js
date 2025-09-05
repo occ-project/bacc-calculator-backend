@@ -1,4 +1,16 @@
-require('dotenv').config();
+let dotenvLoaded = false;
+try {
+  // Attempt to load dotenv for local development; not required in production platforms
+  dotenvLoaded = !!require('dotenv').config();
+} catch (err) {
+  // dotenv may not be installed in the environment (e.g., render's runtime before deps installed).
+  // Proceed using process.env and log a helpful message.
+  if (!process.env.MONGODB_URI) {
+    console.warn('⚠️ dotenv not installed and MONGODB_URI not present. Ensure env vars are configured in Render or install dotenv.');
+  } else {
+    console.info('ℹ️ dotenv not installed but MONGODB_URI is present; continuing.');
+  }
+}
 const mongoose = require('mongoose');
 
 // Build MongoDB URI from environment variables with safe defaults
